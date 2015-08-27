@@ -10,11 +10,21 @@ html , body {
 body {
   font-family: 'PT Sans Narrow', sans-serif;
 }
+body a {
+  color: inherit;
+}
+body a:hover {
+  color: red;
+}
+.container {
+  height: 100%;
+}
 .top-nav {
-  height: 200px;
-  padding-bottom: 20px;
-  padding-top: 50px;
-  border-bottom: 1px solid black;
+  height: 125px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  color: white;
+  background-color: #7F7F7C;
 }
 .left-nav {
   float: left;
@@ -26,6 +36,9 @@ body {
   height: 100px;
   width: 100px;
   margin-right: 5px;
+  border-radius: 50%;
+  margin-left: 5px;
+  margin-right: 10px;
 }
 .nav-name {
   font-size: 21px;
@@ -40,11 +53,59 @@ body {
   padding-top: 10px;
 }
 .left-nav-icons img {
-  height: 25px;
+  height: 30px;
   width: 25px;
   padding: 5px;
   display: inline-block;
 }
 .left-nav-icons img:first-child {
   padding-left: 0;
+}
+.right-nav {
+  float: right;
+  height: 100%;
+  width: 50%;
+  padding-left: 10%;
+}
+.right-nav p {
+  font-size: 36px;
+  font-weight: bold;
+  padding: 0 20px;
+  display: inline-block;
+  padding-top: 30px;
+}
+.header {
+  text-align: center;
+  padding: 30px 0;
+  color: white;
+  background-color: #BFBEBA;
+}
+.header p {
+  font-size: 36px;
+  font-weight: 600;
+}
+.main-page {
+  height: auto;
+  max-width: inherit;
+  clear: both;
+}
+.main-page div {
+  position: relative;
+  float: left;
+  width: 20%;
+  height: 175px;
+  margin: 5%;
+  margin-left: 7%;
+}
+.main-page img {
+  border-radius: 5px;
+  border: 5px ridge gray;
+  padding: 5px;
+  border-radius: 5px;
+}
+.main-page p {
+  font-size: 18px;
+  text-align: center;
+  padding-top: 5px;
+  font-weight: bold;
 }
