@@ -17,7 +17,7 @@ body a:hover {
   color: red;
 }
 .container {
-  height: 100%;
+  height: auto;
 }
 .top-nav {
   height: 125px;
@@ -108,4 +108,61 @@ body a:hover {
   text-align: center;
   padding-top: 5px;
   font-weight: bold;
+}
+.bottom-nav {
+  clear: both;
+  height: 280px;
+  background-color: #7F7F7C;
+}
+.bottom-nav div {
+  width: 31%;
+  height: auto;
+  float: left;
+}
+.bottom-nav-left img {
+  height: 5em;
+  width: 5em;
+  float: left;
+  margin: 2em;
+  border-radius: 50%;
+}
+.bottom-nav-left p {
+  font-size: 18px;
+  color: black;
+  clear: both;
+  width: 75%;
+  margin-left: 2em;
+  margin-bottom: 1em;
+}
+.bottom-nav-middle {
+  height: 240px !important;
+  background-color: black;
+}
+.bottom-nav div {
+  margin: .5em;
+}
+.bottom-nav-right div {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+.bottom-nav-right img {
+  height: 25px;
+  width: 25px;
+}
+.bottom-nav-right img {
+  display: inline-block;
+}
+.contact-me {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: .5em;
+}
+.bottom-nav-right p {
+  padding: 5px;
+}
+.first {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 400;
 }
