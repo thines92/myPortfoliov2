@@ -25,6 +25,7 @@ body a:hover {
   padding-top: 10px;
   color: white;
   background-color: #7F7F7C;
+  position: relative;
 }
 .left-nav {
   float: left;
@@ -74,6 +75,40 @@ body a:hover {
   display: inline-block;
   padding-top: 30px;
 }
+@media screen and (max-width: 1200px) {
+  .right-nav p {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 990px) {
+  .left-nav {
+    width: 40%;
+  }
+  .right-nav {
+    width: 60%;
+  }
+  .right-nav p {
+    padding: 20px 10px 0 10px;
+  }
+}
+@media screen and (max-width:780px) {
+  .right-nav p {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width:580px) {
+  .left-nav {
+    width: 70%;
+  }
+  .right-nav {
+    width: 30%;
+  }
+  .right-nav p {
+    display: block;
+    padding-top: 10px;
+    padding: 10px 5px 0 5px;
+  }
+}
 .header {
   text-align: center;
   padding: 30px 0;
@@ -88,6 +123,7 @@ body a:hover {
   height: auto;
   max-width: inherit;
   clear: both;
+  overflow:hidden;
 }
 .main-page div {
   position: relative;
@@ -109,10 +145,22 @@ body a:hover {
   padding-top: 5px;
   font-weight: bold;
 }
+@media screen and (max-width:990px) {
+  .main-page div {
+    width: 35%;
+  }
+}
+@media screen and (max-width:580px) {
+  .main-page div {
+    width: 50%;
+    margin-left: 25%;
+  }
+}
 .bottom-nav {
   clear: both;
   height: 280px;
   background-color: #7F7F7C;
+  overflow: hidden;
 }
 .bottom-nav div {
   width: 31%;
