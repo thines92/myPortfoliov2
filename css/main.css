@@ -69,9 +69,34 @@ body a:hover {
 .right-nav p {
   position: relative;
   font-size: 1em;
+  left: 37.5%;
   font-weight: bold;
   display: block;
   padding-bottom: 5%;
+}
+@media screen and (min-width: 768px) {
+  .nav-name {
+    font-size: 1.5em;
+  }
+  .nav-title {
+    font-size: .8em;
+  }
+  .left-nav {
+    width: 50%;
+  }
+  .right-nav {
+    width: 50%;
+  }
+  .right-nav p {
+    display: inline-block;
+    font-size: 1.5em;
+    left: 35%;
+    padding-right: .75em;
+    top: 1.1em;
+  }
+  .right-nav p:last-child {
+    padding-right: 0;
+  }
 }
 .header {
   text-align: center;
