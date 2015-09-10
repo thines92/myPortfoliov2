@@ -4,11 +4,9 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-html , body {
-  height: 100%;
-}
 body {
   font-family: 'PT Sans Narrow', sans-serif;
+  height: auto;
 }
 body a {
   color: inherit;
@@ -20,9 +18,9 @@ body a:hover {
   height: auto;
 }
 .top-nav {
-  height: 125px;
-  padding-bottom: 10px;
-  padding-top: 10px;
+  height: auto;
+  padding-bottom: 1.5em;
+  padding-top: 1.5em;
   color: white;
   background-color: #7F7F7C;
   position: relative;
@@ -30,93 +28,59 @@ body a:hover {
 .left-nav {
   float: left;
   height: 100%;
-  width: 50%;
+  width: 70%;
 }
 .profile-pic {
   float: left;
-  height: 100px;
-  width: 100px;
-  margin-right: 5px;
+  width: 30%;
+  max-width: 4em;
+  margin-right: .05%;
   border-radius: 50%;
-  margin-left: 5px;
-  margin-right: 10px;
+  margin-left: .5em;
+  margin-right: .5em;
 }
 .nav-name {
-  font-size: 21px;
+  font-size: 1.3em;
   font-weight: bold;
-  padding: 5px;
+  padding: .05%;
 }
 .nav-title {
-  font-size: 12px;
-  padding: 5px;
+  font-size: .5em;
+  padding: .5em;
 }
 .left-nav-icons {
-  padding-top: 10px;
+  padding-top: .5em;
 }
 .left-nav-icons img {
-  height: 30px;
-  width: 25px;
-  padding: 5px;
+  width: 10%;
+  max-width: 1.7em;
   display: inline-block;
+  padding-right: .25em;
 }
 .left-nav-icons img:first-child {
   padding-left: 0;
 }
 .right-nav {
+  position: relative;
   float: right;
   height: 100%;
-  width: 50%;
-  padding-left: 10%;
+  width: 30%;
 }
 .right-nav p {
-  font-size: 36px;
+  position: relative;
+  font-size: 1em;
   font-weight: bold;
-  padding: 0 20px;
-  display: inline-block;
-  padding-top: 30px;
-}
-@media screen and (max-width: 1200px) {
-  .right-nav p {
-    font-size: 28px;
-  }
-}
-@media screen and (max-width: 990px) {
-  .left-nav {
-    width: 40%;
-  }
-  .right-nav {
-    width: 60%;
-  }
-  .right-nav p {
-    padding: 20px 10px 0 10px;
-  }
-}
-@media screen and (max-width:780px) {
-  .right-nav p {
-    font-size: 22px;
-  }
-}
-@media screen and (max-width:580px) {
-  .left-nav {
-    width: 70%;
-  }
-  .right-nav {
-    width: 30%;
-  }
-  .right-nav p {
-    display: block;
-    padding-top: 10px;
-    padding: 10px 5px 0 5px;
-  }
+  display: block;
+  padding-bottom: 5%;
 }
 .header {
   text-align: center;
-  padding: 30px 0;
+  padding: 2em 0;
   color: white;
   background-color: #BFBEBA;
 }
 .header p {
-  font-size: 36px;
+  font-size: 2.25em;
   font-weight: 600;
 }
 .main-page {
@@ -125,74 +89,70 @@ body a:hover {
   clear: both;
   overflow:hidden;
 }
-.main-page div {
+.main-page div  {
   position: relative;
-  float: left;
-  width: 20%;
-  height: 175px;
-  margin: 5%;
-  margin-left: 7%;
+  display: inline-block;
+  left: 15%;
+  top: 5%;
+  width: 70%;
+  margin: 5% 0 5% 0;
+  vertical-align: top;
 }
 .main-page img {
   border-radius: 5px;
   border: 5px ridge gray;
-  padding: 5px;
+  padding: .15em;
   border-radius: 5px;
+  width: 100%;
 }
 .main-page p {
   font-size: 18px;
   text-align: center;
   padding-top: 5px;
-  font-weight: bold;
+  font-weight:normal;
 }
-@media screen and (max-width:990px) {
+@media screen and (min-width: 488px) {
   .main-page div {
-    width: 35%;
-  }
-}
-@media screen and (max-width:580px) {
-  .main-page div {
-    width: 50%;
-    margin-left: 25%;
+    width: 30%;
+    left: 4%;
+    padding: 0 5% 0 5%;
   }
 }
 .bottom-nav {
   clear: both;
-  height: 280px;
+  height: auto;
   background-color: #7F7F7C;
   overflow: hidden;
+  padding-bottom: 4em;
 }
 .bottom-nav div {
-  width: 31%;
+  width: 45%;
   height: auto;
   float: left;
 }
 .bottom-nav-left img {
-  height: 5em;
-  width: 5em;
+  width: 30%;
+  max-width: 4em;
   float: left;
-  margin: 2em;
+  margin-left: .5em;
   border-radius: 50%;
 }
 .bottom-nav-left p {
-  font-size: 18px;
+  font-size: 1.125em;
   color: black;
   clear: both;
-  width: 75%;
-  margin-left: 2em;
+  width: 95%;
+  margin-left: .5em;
   margin-bottom: 1em;
 }
-.bottom-nav-middle {
-  height: 240px !important;
-  background-color: black;
-}
-.bottom-nav div {
-  margin: .5em;
+.bottom-nav-right {
+  padding-left: .5em;
 }
 .bottom-nav-right div {
   display: block;
   position: relative;
   width: 100%;
+  padding-left: .25em;
 }
 .bottom-nav-right img {
   height: 25px;
