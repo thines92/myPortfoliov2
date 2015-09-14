@@ -17,6 +17,9 @@ body a:hover {
 .container {
   height: auto;
 }
+.container-fluid {
+  padding: 0;
+}
 .top-nav {
   height: auto;
   padding-bottom: 1.5em;
@@ -42,10 +45,12 @@ body a:hover {
   font-size: 1.3em;
   font-weight: bold;
   padding: .05%;
+  margin-top: 10px;
 }
 .nav-title {
   font-size: .5em;
   padding: .5em;
+  font-style: italic;
 }
 .left-nav-icons {
   padding-top: .5em;
@@ -69,9 +74,9 @@ body a:hover {
   position: relative;
   font-size: 1em;
   left: 37.5%;
-  font-weight: bold;
   display: block;
   padding-bottom: 10%;
+  color: #484545 !important;
 }
 @media screen and (min-width: 480px) {
   .nav-name {
@@ -89,12 +94,10 @@ body a:hover {
   }
   .right-nav p {
     display: inline-block;
-    font-size: 2.25em;
-    font-weight: bold;
+    font-size: 1.25em;
     padding-right: .75em;
-    top: 3.35em;
+    top: 1.25em;
     left: 0;
-    font-size: .9em;
   }
   .right-nav-options {
     float: right;
@@ -116,8 +119,7 @@ body a:hover {
   }
   .right-nav p {
     display: inline-block;
-    font-size: 2.25em;
-    font-weight: bold;
+    font-size: 1.25em;
     padding-right: .75em;
     top: 1.25em;
     left: 0;
@@ -126,16 +128,19 @@ body a:hover {
     float: right;
   }
 }
-
 .header {
   text-align: center;
   padding: 2em 0;
   color: white;
-  background-color: #BFBEBA;
+  background-color: #65beb4;
 }
 .header p {
   font-size: 2.25em;
   font-weight: 600;
+  padding-top: 10px;
+}
+.header p:first-child {
+  padding-top: 0;
 }
 .main-page {
   height: auto;
@@ -154,7 +159,6 @@ body a:hover {
 }
 .main-page img {
   border-radius: 5px;
-  border: 5px ridge gray;
   padding: .15em;
   border-radius: 5px;
   width: 100%;
@@ -169,7 +173,7 @@ body a:hover {
   .main-page div {
     width: 40%;
     padding: 0 2.5% 0 2.5%;
-    left: 8.5%;
+    left: 8.%;
   }
 }
 @media screen and (min-width: 768px) {
@@ -179,32 +183,20 @@ body a:hover {
     left: 5%;
   }
 }
+.background {
+  background-color: #65beb4;
+}
 .bottom-nav {
   clear: both;
   height: auto;
-  background-color: #7F7F7C;
+  background-color: #65beb4;
   overflow: hidden;
   padding-bottom: 4em;
 }
 .bottom-nav div {
-  width: 45%;
+  width: 50%;
   height: auto;
   float: left;
-}
-.bottom-nav-left img {
-  width: 30%;
-  max-width: 4em;
-  float: left;
-  margin-left: .5em;
-  border-radius: 50%;
-}
-.bottom-nav-left p {
-  font-size: 1.125em;
-  color: black;
-  clear: both;
-  width: 95%;
-  margin-left: .5em;
-  margin-bottom: 1em;
 }
 .bottom-nav-right {
   padding-left: .5em;
@@ -214,21 +206,6 @@ body a:hover {
   position: relative;
   width: 100%;
   padding-left: .25em;
-}
-.bottom-nav-right img {
-  height: 25px;
-  width: 25px;
-}
-.bottom-nav-right img {
-  display: inline-block;
-}
-.contact-me {
-  font-size: 24px;
-  font-weight: bold;
-  margin-left: .5em;
-}
-.bottom-nav-right p {
-  padding: 5px;
 }
 .first {
   display: inline-block;
