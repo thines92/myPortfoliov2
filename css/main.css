@@ -78,7 +78,7 @@ body a:hover {
   padding-bottom: 10%;
   color: #484545 !important;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 610px) {
   .nav-name {
     font-size: 1.5em;
   }
@@ -204,6 +204,63 @@ body a:hover {
   width: 75%;
   margin-left: 15%;
   margin-bottom: 25px;
+}
+.email-form {
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+.email-form input , .email-form textarea , .email-form button{
+  display: block;
+  margin-top: 10px;
+}
+.email-form input:first-child {
+  margin-top: 0;
+}
+.email-form input {
+  width: 25%;
+  min-width: 7em;
+  margin-left: 37.5%;
+  border: 1px solid #d8d8d8;
+  font-size: 1.1em;
+}
+.email-form textarea {
+  width: 25%;
+  min-width: 7.5em;
+  margin-left: 37.5%;
+  height: 200px;
+  border: 1px solid #d8d8d8;
+}
+.email-form button {
+  width: 5.5em;
+  margin-left: 37.5%;
+  border-radius: 2px;
+  background-color: #dd5b43;
+  border: none;
+  height: 2.5em;
+  color: #fff;
+  font-size: 1em;
+}
+.email-form legend , .social-media-title , .or{
+  font-size: 1.5em;
+  text-align: center;
+  color: #484545;
+}
+.or {
+  margin-top: 15px;
+}
+.social-media-title {
+  margin-top: 100px;
+}
+.social-media-icons {
+  margin-left: 45%;
+  margin-top: 15px;
+}
+.social-media-icons div {
+  display: inline-block;
+  padding-right: 10px;
+}
+.social-media-icons img {
+  width: 30px;
 }
 .background {
   background-color: #65beb4;
