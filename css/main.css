@@ -183,6 +183,28 @@ body a:hover {
     left: 5%;
   }
 }
+.about-img {
+  position: relative;
+  height: auto;
+}
+.about-img img {
+  width: 40%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 30%;
+}
+.about-title {
+  font-size: 1.5em;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.about-body {
+  font-size: 1.2em;
+  line-height: 1.3em;
+  width: 75%;
+  margin-left: 15%;
+  margin-bottom: 25px;
+}
 .background {
   background-color: #65beb4;
 }
