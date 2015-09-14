@@ -21,8 +21,7 @@ body a:hover {
   height: auto;
   padding-bottom: 1.5em;
   padding-top: 1.5em;
-  color: white;
-  background-color: #7F7F7C;
+  color: black;
   position: relative;
 }
 .left-nav {
@@ -170,7 +169,7 @@ body a:hover {
   .main-page div {
     width: 40%;
     padding: 0 2.5% 0 2.5%;
-    left: 7.8%;
+    left: 8.5%;
   }
 }
 @media screen and (min-width: 768px) {
@@ -178,20 +177,6 @@ body a:hover {
     width: 30%;
     padding: 0 2% 0 2%;
     left: 5%;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .main-page div {
-    width: 22.5%;
-    padding: 0 3.5% 0 3.5%;
-    left: 2.5%;
-  }
-}
-@media screen and (min-width: 1600px) {
-  .main-page div {
-    width: 15%;
-    padding: 0 2% 0 2%;
-    left: 4%;
   }
 }
 .bottom-nav {
