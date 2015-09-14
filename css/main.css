@@ -74,7 +74,7 @@ body a:hover {
   display: block;
   padding-bottom: 10%;
 }
-@media screen and (min-width: 841px) {
+@media screen and (min-width: 612px) {
   .nav-name {
     font-size: 1.5em;
   }
@@ -92,12 +92,12 @@ body a:hover {
     display: inline-block;
     font-size: 2.25em;
     font-weight: bold;
-    left: 35%;
     padding-right: .75em;
     top: 1.1em;
+    left: 0;
   }
-  .right-nav p:last-child {
-    padding-right: 0;
+  .right-nav-options {
+    float: right;
   }
 }
 .header {
